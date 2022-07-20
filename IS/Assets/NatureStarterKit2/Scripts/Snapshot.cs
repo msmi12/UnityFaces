@@ -11,6 +11,7 @@ public class Snapshot : MonoBehaviour
     int resHeight= 2048;
     public PhoC phoC;
     int cF;
+    
 
 
     void Start()
@@ -37,7 +38,7 @@ public class Snapshot : MonoBehaviour
 
     string SnapshotName(int i)
     {
-        return string.Format("{0}/Snapshots/snap_{1}x{2}_{3}_{4}_{5}.png", Application.dataPath, resWidth, resHeight, i, snapCam.name, System.DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss"));
+        return string.Format("{0}/Snapshots/snap_{1}x{2}_{3}_{4}_{5}_{6}.png", Application.dataPath, resWidth, resHeight, i, snapCam.name, Random.Range(1,100), System.DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss"));
 
     }
 
