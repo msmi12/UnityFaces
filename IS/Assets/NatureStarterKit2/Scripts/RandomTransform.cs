@@ -11,12 +11,12 @@ public class RandomTransform : MonoBehaviour
     public float maxInclusiveRotation = 10f;
     public float minInclusivePosition = 0f;
     public float maxInclusivePosition = 10f;
-    public Vector3 startPosition;
-    public Quaternion startRotation;
+    //public Vector3 startPosition;
+   // public Quaternion startRotation;
     void Start()
     {
-        startPosition = transform.position;
-        startRotation = transform.rotation;
+     //   startPosition = transform.position;
+       // startRotation = transform.rotation;
     }
     public void RandomizeValues(float x, float y,float z, float minInclusiveRotation, float maxInclusiveRotation, float minInclusivePosition, float maxInclusivePosition)
     {
