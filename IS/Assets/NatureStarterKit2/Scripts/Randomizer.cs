@@ -11,16 +11,16 @@ public class Randomizer : MonoBehaviour
     {
         cF = phoC.countF;
         Debug.Log(cF);
-        StartCoroutine(schimbPozitie());
+        //StartCoroutine(schimbPozitie());
             //randomTransform.ReturnValues();
          
     }
-    IEnumerator schimbPozitie()
+    internal void schimbPozitie()
     {
-        for(int i=1; i<= cF; i++)
-        {
+        //for(int i=1; i<= cF; i++)
+        //{
             randomTransform.RandomizeValues(randomTransform.x, randomTransform.y, randomTransform.z, randomTransform.minInclusiveRotation, randomTransform.maxInclusiveRotation, randomTransform.minInclusivePosition, randomTransform.maxInclusivePosition);
-            yield return new WaitForSeconds(2f);
-        }
+            //yield return new WaitForSeconds(2f);
+       // }
     }
 }

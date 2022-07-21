@@ -30,7 +30,7 @@ public class Snapshot : MonoBehaviour
             resHeight = snapCam.targetTexture.height;
 
         }        
-           StartCoroutine(takeSnapshot());
+          // StartCoroutine(takeSnapshot());
         
         
     }
@@ -42,11 +42,10 @@ public class Snapshot : MonoBehaviour
 
     }
 
-    IEnumerator takeSnapshot()
+    internal void takeSnapshot(int i)
     {     
-        for (int i=1; i<=cF; i++)
-        {
-            Debug.Log($"incearca saracu{this.gameObject.name}");
+        //for (int i=1; i<=cF; i++)
+        //{
            // snapCam.gameObject.SetActive(true);
             //if (snapCam.gameObject.activeInHierarchy)
            // {
@@ -60,9 +59,9 @@ public class Snapshot : MonoBehaviour
                 System.IO.File.WriteAllBytes(fileName, bytes);
                 Debug.Log($"Snapshot taken!{snapCam.gameObject.name}");
 
-                yield return new WaitForSeconds(2f);
+               // yield return new WaitForSeconds(2f);
 
             //}
-        }
+       // }
     }
 }

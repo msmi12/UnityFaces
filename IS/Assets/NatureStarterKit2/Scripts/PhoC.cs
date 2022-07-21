@@ -31,23 +31,23 @@ public class PhoC : MonoBehaviour
 
         countF = Directory.GetFiles(@"D:\INTERNSHIP\IS\Assets\NatureStarterKit2\Buletine", "*.jpg", SearchOption.TopDirectoryOnly).Length;
     }
-    void Start()
+   // void Start()
 
-    {
+   // {
         
-        StartCoroutine(schimbPoze());
+      //  StartCoroutine(schimbPoze());
 
-    }
-    IEnumerator schimbPoze()
-    { for (int i = 1; i <= countF; i++)
-        {
+   // }
+    internal void schimbPoze(int i)
+    { //for (int i = 1; i <= countF; i++)
+       // {
             filePath = (@$"D:\INTERNSHIP\IS\Assets\NatureStarterKit2\Buletine\foto {i}.jpg");
             Texture2D texture = LoadPNG(filePath);
             gameObject.GetComponent<Renderer>().material.mainTexture = texture;
             Debug.Log($"poza {i} a fost incarcata");
-            yield return new WaitForSeconds(2f);
+           // yield return new WaitForSeconds(2f);
             
-        }
+       // }
     }
 }
 

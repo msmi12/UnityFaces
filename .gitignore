@@ -1,5 +1,6 @@
 
 IS/Temp/UnityLockfile
+IS/Library/Artifacts
 IS/Library/ArtifactDB
 IS/Library/Artifacts/00/007cc8931adcb6f3c21901881aede8d6
 IS/Library/Artifacts/07/07a6a33f2df61bc43a86b741118ca3dd
@@ -72,3 +73,5 @@ IS/Library/CurrentLayout-default.dwlt
 IS/Library/EditorInstance.json
 IS/Library/ShaderCache.db
 IS/Library/SourceAssetDB
+IS/Library/ArtifactDB
+IS/Library/ArtifactDB
