@@ -1213,8 +1213,8 @@ MonoBehaviour:
   x: 0
   y: 0
   z: 0
-  minInclusiveRotation: -100
-  maxInclusiveRotation: 100
+  minInclusiveRotation: -60
+  maxInclusiveRotation: 60
   minInclusivePosition: 0
   maxInclusivePosition: 10
 --- !u!114 &95618125
