@@ -6,7 +6,8 @@ using System.IO;
 public class PhoC : MonoBehaviour
 {
     public GameObject gameObject;
-    public Texture2D texture; 
+    public Texture2D texture;
+    public int countF;
     string filePath;
     Texture2D tex = null;
     byte[] fileData;
@@ -24,14 +25,29 @@ public class PhoC : MonoBehaviour
         }
         return tex;
     }
-    void Start()
 
+    void Awake()
     {
-        filePath = @"D:\INTERNSHIP\IS\Assets\NatureStarterKit2\Buletine\avatar-f277a93e33d8427ca160ce767159ef5b.jpg";       
-        Texture2D texture= LoadPNG(filePath);
-        gameObject.GetComponent<Renderer>().material.mainTexture = texture;
-        Debug.Log(texture);
-        
+
+        countF = Directory.GetFiles(@"D:\INTERNSHIP\IS\Assets\NatureStarterKit2\Buletine", "*.jpg", SearchOption.TopDirectoryOnly).Length;
     }
-    
+   // void Start()
+
+   // {
+        
+      //  StartCoroutine(schimbPoze());
+
+   // }
+    internal void schimbPoze(int i)
+    { //for (int i = 1; i <= countF; i++)
+       // {
+            filePath = (@$"D:\INTERNSHIP\IS\Assets\NatureStarterKit2\Buletine\foto {i}.jpg");
+            Texture2D texture = LoadPNG(filePath);
+            gameObject.GetComponent<Renderer>().material.mainTexture = texture;
+            Debug.Log($"poza {i} a fost incarcata");
+           // yield return new WaitForSeconds(2f);
+            
+       // }
+    }
 }
+

@@ -1,0 +1,306 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'en' Physical Memory: 16167 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2020.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/INTERNSHIP/IS
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61431
+Successfully changed project path to: D:/INTERNSHIP/IS
+D:/INTERNSHIP/IS
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 31.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/INTERNSHIP/IS/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   
+    VRAM:     3965 MB
+    Driver:   30.0.15.1236
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001408 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 25.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.459 seconds
+Domain Reload Profiling:
+	ReloadAssembly (459ms)
+		BeginReloadAssembly (72ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (331ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (106ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (126ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (25ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (62ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001658 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.753 seconds
+Domain Reload Profiling:
+	ReloadAssembly (754ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (591ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (191ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (230ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1652 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.4 MB.
+System memory in use after: 105.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2111.
+Total: 2.412900 ms (FindLiveObjects: 0.109600 ms CreateObjectMapping: 0.028800 ms MarkObjects: 1.991500 ms  DeleteObjects: 0.281200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/NatureStarterKit2/Buletine/foto 27.jpg
+  artifactKey: Guid(8bd2e3b180b4ede45bef75e8af2ae619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Buletine/foto 27.jpg using Guid(8bd2e3b180b4ede45bef75e8af2ae619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf66499708826389b4386cfead685d0') in 0.063899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/NatureStarterKit2/Buletine/foto 23.jpg
+  artifactKey: Guid(3b0983ef9faf01841962e1b6a321d486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Buletine/foto 23.jpg using Guid(3b0983ef9faf01841962e1b6a321d486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fd27921da90488b2a5e1de955f31bd') in 0.015392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/NatureStarterKit2/Buletine/foto 17.jpg
+  artifactKey: Guid(ec984fdcdf8995046b2458e7b406e4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Buletine/foto 17.jpg using Guid(ec984fdcdf8995046b2458e7b406e4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9356ea2ae9f1e69efeb0cb90409d1c75') in 0.043832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/NatureStarterKit2/Buletine/foto 16.jpg
+  artifactKey: Guid(ef2ce1c006d3da24295e2037e5565c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Buletine/foto 16.jpg using Guid(ef2ce1c006d3da24295e2037e5565c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7352cd24f8208a213592f45bf79c6658') in 0.010934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/NatureStarterKit2/Buletine/foto 19.jpg
+  artifactKey: Guid(5a14c656db76c094086fa0ff9695a549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Buletine/foto 19.jpg using Guid(5a14c656db76c094086fa0ff9695a549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778a6a8908449698ebb0796d52c1e0eb') in 0.033910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/NatureStarterKit2/Buletine/foto 25.jpg
+  artifactKey: Guid(4dd6c503a0030c6429910220365ab7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Buletine/foto 25.jpg using Guid(4dd6c503a0030c6429910220365ab7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266c286c99c4aa6057d31271e58e7239') in 0.013288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/NatureStarterKit2/Buletine/foto 14.jpg
+  artifactKey: Guid(786b418ff036276458751bb742d25502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Buletine/foto 14.jpg using Guid(786b418ff036276458751bb742d25502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60402a346ec88987776a0f8c27e0f49') in 0.034462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/NatureStarterKit2/Buletine/foto 21.jpg
+  artifactKey: Guid(6ceb75122e921c14794c611668a41ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Buletine/foto 21.jpg using Guid(6ceb75122e921c14794c611668a41ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0b40ef5cdec236409bb78d588c1f50') in 0.017019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/NatureStarterKit2/Buletine/foto 26.jpg
+  artifactKey: Guid(682d854d74f09704c8aa26987c520f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Buletine/foto 26.jpg using Guid(682d854d74f09704c8aa26987c520f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191804deb5c12bf7ee05e52b089a9d62') in 0.030104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/NatureStarterKit2/Buletine/foto 29.jpg
+  artifactKey: Guid(3de19d69f5047584593bdd4d610d6b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Buletine/foto 29.jpg using Guid(3de19d69f5047584593bdd4d610d6b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7bc0d08b403aef9ce54ae58a0b60bb') in 0.016440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/NatureStarterKit2/Buletine/foto 28.jpg
+  artifactKey: Guid(3b1cca1e7338eba4a9af236cdf940e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Buletine/foto 28.jpg using Guid(3b1cca1e7338eba4a9af236cdf940e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc352454273c8558267c73b85325ac57') in 0.047161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/NatureStarterKit2/Buletine/foto 31.jpg
+  artifactKey: Guid(ade6376dddb205447a522daeff8ec033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Buletine/foto 31.jpg using Guid(ade6376dddb205447a522daeff8ec033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9401987c33ff932058091e277965a92e') in 0.038349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/NatureStarterKit2/Buletine/foto 18.jpg
+  artifactKey: Guid(f8027b15b36560a40a96c85fcbf9f4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Buletine/foto 18.jpg using Guid(f8027b15b36560a40a96c85fcbf9f4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1655e24fda436498ed0085f9e3289af') in 0.008478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/NatureStarterKit2/Buletine/foto 22.jpg
+  artifactKey: Guid(d55806de31e404340bb80765cb2d89be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Buletine/foto 22.jpg using Guid(d55806de31e404340bb80765cb2d89be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad18f484920c947f812adf58942d594') in 0.042063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000907 seconds.
+  path: Assets/NatureStarterKit2/Buletine/foto 24.jpg
+  artifactKey: Guid(468f65d6977d7f74ca448cb5a1f58e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Buletine/foto 24.jpg using Guid(468f65d6977d7f74ca448cb5a1f58e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b4933914f96be2592b538c3cd8277f') in 0.015453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/NatureStarterKit2/Buletine/foto 15.jpg
+  artifactKey: Guid(6053693b617b3ef4c8ef10d9409deb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Buletine/foto 15.jpg using Guid(6053693b617b3ef4c8ef10d9409deb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f117ee14bea8c9fa81478ef92cf61e9') in 0.035920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/NatureStarterKit2/Buletine/foto 30.jpg
+  artifactKey: Guid(457173211fc5eef4fbf89d34cb2585af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Buletine/foto 30.jpg using Guid(457173211fc5eef4fbf89d34cb2585af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19bf0a9a5cce4f55ed04272475fa095') in 0.017721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/NatureStarterKit2/Buletine/foto 32.jpg
+  artifactKey: Guid(f5b502399dd35a64e9c8fe024ec16e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Buletine/foto 32.jpg using Guid(f5b502399dd35a64e9c8fe024ec16e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805122fc6caa21c5d373bbe3fb4ace24') in 0.032290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/NatureStarterKit2/Buletine/foto 33.jpg
+  artifactKey: Guid(1b392ef76ab94a240b17f8aca19d24aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Buletine/foto 33.jpg using Guid(1b392ef76ab94a240b17f8aca19d24aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15da336d8b2318a78ace5b127911c2b9') in 0.017483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000569 seconds.
+  path: Assets/NatureStarterKit2/Buletine/foto 20.jpg
+  artifactKey: Guid(29f58a48e53755b4c81e848ede7aabce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit2/Buletine/foto 20.jpg using Guid(29f58a48e53755b4c81e848ede7aabce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9666a9e2c32c71ae47af2011d9f6484') in 0.038535 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001676 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.723 seconds
+Domain Reload Profiling:
+	ReloadAssembly (724ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (583ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (205ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (217ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (36ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1561 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.7 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2115.
+Total: 2.352900 ms (FindLiveObjects: 0.108300 ms CreateObjectMapping: 0.027700 ms MarkObjects: 1.954800 ms  DeleteObjects: 0.261200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

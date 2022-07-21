@@ -5,12 +5,22 @@ using UnityEngine;
 public class Randomizer : MonoBehaviour
 {
     public RandomTransform randomTransform;
-    void Update()
+    public PhoC phoC;
+    int cF;
+    void Start()
     {
-        if (Input.GetKeyDown(KeyCode.P))
-        {
+        cF = phoC.countF;
+        Debug.Log(cF);
+        //StartCoroutine(schimbPozitie());
             //randomTransform.ReturnValues();
+         
+    }
+    internal void schimbPozitie()
+    {
+        //for(int i=1; i<= cF; i++)
+        //{
             randomTransform.RandomizeValues(randomTransform.x, randomTransform.y, randomTransform.z, randomTransform.minInclusiveRotation, randomTransform.maxInclusiveRotation, randomTransform.minInclusivePosition, randomTransform.maxInclusivePosition);
-        }
+            //yield return new WaitForSeconds(2f);
+       // }
     }
 }
