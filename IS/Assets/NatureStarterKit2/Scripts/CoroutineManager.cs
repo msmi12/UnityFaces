@@ -4,22 +4,22 @@ using UnityEngine;
 
 public class CoroutineManager : MonoBehaviour
 {
-    public GameObject[] automatedObj;
+    /*public GameObject[] automatedObj;
     internal PhoC phoC;
             Randomizer randomizer;
             Snapshot snapshot;
     [SerializeField] public GameObject sun;
     public GameObject standardBuletin;
     int cF;
-   // [SerializeField] int numarSchimbariPePoza=3;
+    [SerializeField] int numarSchimbariPePoza= 3;
     void Start()
     {  
         automatedObj = GameObject.FindGameObjectsWithTag("auto");
         cF = standardBuletin.GetComponent<PhoC>().countF;      
          // if (automatedObj[j] != sun)
-            {
+            
                 StartCoroutine(automatizareaProceselor());
-            }
+            
           //  else
             //{ StartCoroutine(randomizarePozitie());
           //  }
@@ -35,18 +35,23 @@ public class CoroutineManager : MonoBehaviour
                 {
                     automatedObj[j].GetComponent<PhoC>().schimbPoze(i);
                 }
-                //for (int x = 1; x <= numarSchimbariPePoza; x++)
-                //{
-                    automatedObj[j].GetComponent<Randomizer>().schimbPozitie();
-                   // Debug.Log($"s a schimbat a {x} oara");
-                    new WaitForSeconds(0.5f);
-                    if (automatedObj[j].GetComponent<Snapshot>() != null)
-                    {
-                        automatedObj[j].GetComponent<Snapshot>().takeSnapshot(i);
-                    }
-                  // Debug.Log($"a facut ss a{x} oara");
-                   // yield return new WaitForSeconds(1f);
-               //}
+               
+                // if (j > 1 && j % 2 == 1)
+                // {
+                   // for (int x = 1; x <= numarSchimbariPePoza; x++)
+                  //  {
+                        automatedObj[j].GetComponent<Randomizer>().schimbPozitie();
+                      //  Debug.Log($"s a schimbat a {x} oara");
+                        new WaitForSeconds(0.5f);
+                        if (automatedObj[j+1].GetComponent<Snapshot>() != null)
+                        {
+                            automatedObj[j+1].GetComponent<Snapshot>().takeSnapshot(i);
+                           // Debug.Log($"a facut ss a{x} oara");
+                        }
+                      //  continue;
+                   // }
+                //}
+               // yield return new WaitForSeconds(0.5f);
                 
             }
             yield return new WaitForSeconds(0.5f);
@@ -62,4 +67,5 @@ public class CoroutineManager : MonoBehaviour
        //     yield return new WaitForSeconds(2.5f);
        // }
    // }
+    */
 }

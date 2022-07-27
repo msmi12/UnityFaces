@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - auto
+  - buletin
+  - ss
   layers:
   - Default
   - TransparentFX
