@@ -19,7 +19,7 @@ public class PhoC : MonoBehaviour
         if (File.Exists(filePath))
         {
             fileData = File.ReadAllBytes(filePath);
-            Debug.Log("merge");
+            //Debug.Log("merge");
             tex = new Texture2D(2, 2);
             tex.LoadImage(fileData); //..this will auto-resize the texture dimensions.
         }

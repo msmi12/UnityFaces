@@ -10,7 +10,7 @@ public class Randomizer : MonoBehaviour
     void Start()
     {
         cF = phoC.countF;
-        Debug.Log(cF);
+      //  Debug.Log(cF);
         //StartCoroutine(schimbPozitie());
             //randomTransform.ReturnValues();
          

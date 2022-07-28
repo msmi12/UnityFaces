@@ -27,7 +27,7 @@ GameObject:
   - component: {fileID: 3186633650137536906}
   m_Layer: 0
   m_Name: Main Camera (1)
-  m_TagString: auto
+  m_TagString: ss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -603,7 +603,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 402871039329033197, guid: ae0761bdeda16db4fbb6938dc4bc62d9, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.2
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 402871039329033197, guid: ae0761bdeda16db4fbb6938dc4bc62d9, type: 3}
       propertyPath: m_LocalScale.y
@@ -659,7 +659,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1247422464179317860, guid: ae0761bdeda16db4fbb6938dc4bc62d9, type: 3}
       propertyPath: m_TagString
-      value: auto
+      value: buletin
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 360816488147465048, guid: ae0761bdeda16db4fbb6938dc4bc62d9, type: 3}
@@ -705,8 +705,8 @@ MonoBehaviour:
   x: 0
   y: 0
   z: 0
-  minInclusiveRotation: -10
-  maxInclusiveRotation: 10
+  minInclusiveRotation: -7
+  maxInclusiveRotation: 7
   minInclusivePosition: -0.05
   maxInclusivePosition: 0.05
 --- !u!114 &7484188741586924862
