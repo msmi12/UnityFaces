@@ -36,13 +36,13 @@ public class Snapshot : MonoBehaviour
     }
     
 
-    string SnapshotName(int i,int x)
+    string SnapshotName(int i,int j,int x)
     {
-        return string.Format("{0}/Snapshots/snap_{1}-{2}_{3}.png", Application.dataPath, i,x, Random.Range(1,100));
+        return string.Format("{0}/Snapshots/foto {1}-{2}-{3}_{4}.png", Application.dataPath, i,j,x, Random.Range(1,100));
 
     }
 
-    internal void takeSnapshot(int i, int x)
+    internal void takeSnapshot(int i, int j,int x)
     {     
         //for (int i=1; i<=cF; i++)
         //{
@@ -55,7 +55,7 @@ public class Snapshot : MonoBehaviour
                 RenderTexture.active = snapCam.targetTexture;
                 snapshot.ReadPixels(new Rect(0, 0, resWidth, resHeight), 0, 0);
                 byte[] bytes = snapshot.EncodeToPNG();
-                string fileName = SnapshotName(i,x);
+                string fileName = SnapshotName(i,j,x);
                 System.IO.File.WriteAllBytes(fileName, bytes);
                 Debug.Log($"Snapshot taken!{snapCam.gameObject.name}");
 

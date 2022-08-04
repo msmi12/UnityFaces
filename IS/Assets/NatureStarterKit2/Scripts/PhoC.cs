@@ -29,7 +29,7 @@ public class PhoC : MonoBehaviour
     void Awake()
     {
 
-        countF = Directory.GetFiles(@"D:\INTERNSHIP\IS\Assets\NatureStarterKit2\Buletine", "*.jpg", SearchOption.TopDirectoryOnly).Length;
+        countF = Directory.GetFiles(@"D:\UnityFaces\IS\Assets\NatureStarterKit2\Buletine", "*.jpg", SearchOption.TopDirectoryOnly).Length;
     }
    // void Start()
 
@@ -41,7 +41,7 @@ public class PhoC : MonoBehaviour
     internal void schimbPoze(int i)
     { //for (int i = 1; i <= countF; i++)
        // {
-            filePath = (@$"D:\INTERNSHIP\IS\Assets\NatureStarterKit2\Buletine\foto {i}.jpg");
+            filePath = (@$"D:\UnityFaces\IS\Assets\NatureStarterKit2\Buletine\foto {i}.jpg");
             Texture2D texture = LoadPNG(filePath);
             gameObject.GetComponent<Renderer>().material.mainTexture = texture;
             Debug.Log($"poza {i} a fost incarcata");

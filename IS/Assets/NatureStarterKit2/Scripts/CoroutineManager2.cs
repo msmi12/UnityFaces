@@ -39,10 +39,10 @@ public class CoroutineManager2 : MonoBehaviour
                 {             
                     buletinObj[j].GetComponent<Randomizer>().schimbPozitie();
                     cameraObj[j].GetComponent<Randomizer>().schimbPozitie();
-                    cameraObj[j].GetComponent<Snapshot>().takeSnapshot(i,n);
+                    cameraObj[j].GetComponent<Snapshot>().takeSnapshot(i,j,n);
                     Vector3 eulerRotation = new Vector3(m, -40, sun.transform.eulerAngles.z);
                     sun.transform.rotation = Quaternion.Euler(eulerRotation);
-                     m += 80;
+                     m += 20;
                     yield return new WaitForSeconds(0.5f);         
                 }
             }
