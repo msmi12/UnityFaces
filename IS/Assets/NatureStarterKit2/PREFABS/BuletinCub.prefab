@@ -14,8 +14,6 @@ GameObject:
   - component: {fileID: 360816488147465052}
   - component: {fileID: 360816488147465031}
   - component: {fileID: 360816488147465030}
-  - component: {fileID: 360816488147465048}
-  - component: {fileID: 4491376234771281873}
   m_Layer: 0
   m_Name: BuletinCub
   m_TagString: Player
@@ -148,33 +146,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &360816488147465048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1247422464179317860}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1f4f9947261df14590e71f4ca860162, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 300
-  rb: {fileID: 360816488147465030}
-  movement: {x: 0, y: 0, z: 0}
---- !u!114 &4491376234771281873
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1247422464179317860}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b9aba129e252194dbfe2ebe0b1efe8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObject: {fileID: 1247422464179317860}
-  texture: {fileID: 0}
-  countF: 0

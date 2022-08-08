@@ -661,9 +661,7 @@ PrefabInstance:
       propertyPath: m_TagString
       value: buletin
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 360816488147465048, guid: ae0761bdeda16db4fbb6938dc4bc62d9, type: 3}
-    - {fileID: 4491376234771281873, guid: ae0761bdeda16db4fbb6938dc4bc62d9, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae0761bdeda16db4fbb6938dc4bc62d9, type: 3}
 --- !u!1 &5484549997022814644 stripped
 GameObject:

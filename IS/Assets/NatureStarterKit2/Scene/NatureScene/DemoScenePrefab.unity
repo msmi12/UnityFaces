@@ -10187,7 +10187,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 932746154}
-  - component: {fileID: 932746153}
   - component: {fileID: 932746155}
   m_Layer: 0
   m_Name: CoroutineManager
@@ -10196,6 +10195,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream
 --- !u!114 &932746153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10212,6 +10212,8 @@ MonoBehaviour:
   sun: {fileID: 95618120}
   standardBuletin: {fileID: 429357706}
   numarSchimbariPePoza: 3
+=======
+>>>>>>> Stashed changes
 --- !u!4 &932746154
 Transform:
   m_ObjectHideFlags: 0
@@ -10242,6 +10244,9 @@ MonoBehaviour:
   cameraObj: []
   standardBuletin: {fileID: 1064194778}
   sun: {fileID: 95618120}
+  folderName: cats_and_dogs_filtered
+  subfolderName: train\cats
+  rootFileName: cat
   numarSchimbariPePoza: 3
 --- !u!1001 &934037592
 PrefabInstance:
@@ -23309,7 +23314,7 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 360816488147465048, guid: ae0761bdeda16db4fbb6938dc4bc62d9, type: 3}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
@@ -23382,7 +23387,7 @@ PrefabInstance:
       value: buletin
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 4491376234771281873, guid: ae0761bdeda16db4fbb6938dc4bc62d9, type: 3}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: ae0761bdeda16db4fbb6938dc4bc62d9, type: 3}
 --- !u!1001 &6724636440007345361
 PrefabInstance:
