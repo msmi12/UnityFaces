@@ -42,7 +42,11 @@ public class CoroutineManager2 : MonoBehaviour
                     buletinObj[j].GetComponent<Randomizer>().schimbPozitie();
                     cameraObj[j].GetComponent<Randomizer>().schimbPozitie();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                     cameraObj[j].GetComponent<Snapshot>().takeSnapshot(i,n);
+=======
+                    cameraObj[j].GetComponent<Snapshot>().takeSnapshot(rootFileName,i,j,n);
+>>>>>>> Stashed changes
 =======
                     cameraObj[j].GetComponent<Snapshot>().takeSnapshot(rootFileName,i,j,n);
 >>>>>>> Stashed changes

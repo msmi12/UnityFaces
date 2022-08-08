@@ -17,6 +17,7 @@ RtlLookupFunctionEntry returned NULL function. Aborting stack walk.
 <Missing stacktrace information>
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity 2020.3.30f1\Editor\Unity.exe
 -adb2
@@ -14268,5 +14269,7 @@ Received Import Request.
   path: Assets/Snapshots/snap_2-0_17.png
   artifactKey: Guid(ac2d11badc3034a40866c155947dd409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Snapshots/snap_2-0_17.png using Guid(ac2d11badc3034a40866c155947dd409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617dd382b081b8eb8f7856700589a1d2') in 0.010147 seconds 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

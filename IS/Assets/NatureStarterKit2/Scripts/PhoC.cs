@@ -40,7 +40,10 @@ public class PhoC : MonoBehaviour
             countF = Directory.GetFiles($@"D:\UnityFaces\IS\Assets\NatureStarterKit2\{folderName}", "*.jpg", SearchOption.TopDirectoryOnly).Length;
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         countF = Directory.GetFiles(@"D:\INTERNSHIP\IS\Assets\NatureStarterKit2\Buletine", "*.jpg", SearchOption.TopDirectoryOnly).Length;
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     }
@@ -55,8 +58,11 @@ public class PhoC : MonoBehaviour
     { //for (int i = 1; i <= countF; i++)
        // {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             filePath = (@$"D:\INTERNSHIP\IS\Assets\NatureStarterKit2\Buletine\foto {i}.jpg");
 =======
+=======
+>>>>>>> Stashed changes
             if(subfolderName!=null)
         {
             filePath = (@$"D:\UnityFaces\IS\Assets\NatureStarterKit2\{folderName}\{subfolderName}\{rootFileName}.{i}.jpg");
@@ -66,6 +72,9 @@ public class PhoC : MonoBehaviour
             filePath = (@$"D:\UnityFaces\IS\Assets\NatureStarterKit2\{folderName}\{rootFileName}.{i}.jpg");
         }
             
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             Texture2D texture = LoadPNG(filePath);
             gameObject.GetComponent<Renderer>().material.mainTexture = texture;

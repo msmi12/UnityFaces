@@ -36,6 +36,7 @@ public class Snapshot : MonoBehaviour
     }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     string SnapshotName(int i,int x)
     {
         return string.Format("{0}/Snapshots/snap_{1}-{2}_{3}.png", Application.dataPath, i,x, Random.Range(1,100));
@@ -44,6 +45,8 @@ public class Snapshot : MonoBehaviour
 
     internal void takeSnapshot(int i, int x)
 =======
+=======
+>>>>>>> Stashed changes
 
     string SnapshotName(string rootFileName, int i,int j,int x)
     {
@@ -52,6 +55,9 @@ public class Snapshot : MonoBehaviour
     }
 
     internal void takeSnapshot(string rootFileName, int i, int j,int x)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     {     
         //for (int i=1; i<=cF; i++)
@@ -66,7 +72,11 @@ public class Snapshot : MonoBehaviour
                 snapshot.ReadPixels(new Rect(0, 0, resWidth, resHeight), 0, 0);
                 byte[] bytes = snapshot.EncodeToPNG();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 string fileName = SnapshotName(i,x);
+=======
+                string fileName = SnapshotName(rootFileName,i,j,x);
+>>>>>>> Stashed changes
 =======
                 string fileName = SnapshotName(rootFileName,i,j,x);
 >>>>>>> Stashed changes
